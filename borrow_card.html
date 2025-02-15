@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Borrow_Box</title>
+    <!-- Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .sora-font {
+        font-family: "Sora", serif;
+        font-optical-sizing: auto;
+      }
+    </style>
+  </head>
+
+  <body class="sora-font">
+
+    <main class="md:container mx-auto">
+      <!-- serveice -->
+      <section class="service p-10">
+        <h3 class="text-2xl text-center md:text-4xl font-bold pb-5 text-[#0033A0]">
+          Services
+        </h3>
+        <!-- cards  -->
+        <div
+          class="grid justify-center place-items-center grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3"
+        >
+          <!-- card 1 -->
+          <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./image/service.png" class="rounded-full" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">24/7 Services</h2>
+              <p>
+                Any one can oreder any product at any time, Any one can oreder
+                any product
+              </p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./image/delivery.png" class="rounded-full" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Fast Delivery</h2>
+              <p>
+                Our another feature is fast delivary, our team try to deilvary
+                into 2-3 days
+              </p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./image/healthy.png" class="rounded-full" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Healthy Products</h2>
+              <p>we are committed to serve all healthy Products</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    
+  </body>
+</html>
